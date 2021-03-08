@@ -26,6 +26,7 @@ module "my_server" {
   server_name               = "project-backend-server"
   vm_size                   = "Standard_B2s"
   admin_username            = "tungduong"
+  ssh_key_path              = "/home/tungduong/ssh/id_rsa.pub"
   environment               = "development"
 }
 
