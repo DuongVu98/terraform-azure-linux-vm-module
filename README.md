@@ -17,7 +17,7 @@ provider "azurerm" {
 }
 
 module "my_server" {
-  source                    = "https://github.com/DuongVu98/terraform-azure-linux-vm-module.git"
+  source                    = "github.com/DuongVu98/terraform-azure-linux-vm-module"
   server_rg                 = "project-rg"
   server_location           = "westus2"
   server_resource_prefix    = "project-prefix"
